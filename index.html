@@ -467,6 +467,22 @@
           </li>
         </ul>
       </div>
+      <div>
+        <form class="footer-form">
+          <label class="footer-sub">
+            Subscribe
+            <input placeholder="E-mail" class="footer-input--email" type="email"/>
+          </label>
+          <button type="button" class="footer-subscribe">
+            Subscribe
+            <svg class="footer-form-btn-subsctibe">
+              <use
+              href="./images/spirte.svg#icon-icondTelegram"
+              ></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
     </footer>
     <div class="bachdrop is-hidden" data-modal>
@@ -477,10 +493,53 @@
             href="./images/spirte.svg#icon-Vector"
             ></use>
             </svg>
-
         </button>
-      </div>
-    </div>
+        <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+        <form class="form-modal">
+            <label class="lab-form-modal">
+              Name
+              <div class="form-send-input--icon">
+              <input class="modal-input form-input-data lab-form-name"  type="text" name="name">
+              <svg class="modal-form-person-svg form-input--icon">
+                <use
+                href="./images/spirte.svg#icon-icon-send"
+                ></use>
+              </svg>
+              </div>
+            </label>
+            <label class="lab-form-modal">
+              Phone
+              <div class="form-send-input--icon">
+              <input class="modal-input form-input-data lab-form-phone" type="tel" name="tel">
+              <svg class="modal-form-telephone-icon form-input--icon">
+                <use
+                href="./images/spirte.svg#icon-telephone"
+                ></use>
+              </svg>
+              </div>
+            </label>
+            <label class="lab-form-modal">
+              Email
+              <div class="form-send-input--icon">
+              <input class="modal-input form-input-data lab-form-email" type="email" name="email">
+              <svg class="modal-form-gmail-icon form-input--icon">
+                <use
+                href="./images/spirte.svg#icon-gmailSend"
+                ></use>
+              </svg>
+              </div>
+            </label>
+           <label for="comment" class="lab-form-modal">
+            Comment
+            <textarea class="modal-input form-input-comment" placeholder="Text input" type="text" name="comment" id="comment"></textarea>
+           </label>
+           <label class="check-modal-privacy">
+            <input class="checkbox_input" type="checkbox">
+            <span class="check__box"></span>
+           <p> I accept the terms and conditions of the <a href="#" class="modal-link">Privacy Policy</a></p>
+           </label>
+           <button type="button" class="modal-form--button">Send</button>
+        </form>
     <script src="./js/modal.js"></script>
   </body>
 </html>
