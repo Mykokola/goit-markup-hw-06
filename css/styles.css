@@ -555,7 +555,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 .footer-flex{
     display: flex;
-    gap: 120px;
+}
+.footer-comment{
+    margin-right: 120px;
+}
+.footer-social-link{
+    margin-right: 80px;
 }
 .bachdrop{
     position: fixed;
